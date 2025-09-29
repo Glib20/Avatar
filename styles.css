@@ -1,0 +1,119 @@
+.head-list {
+padding: 10px;
+  margin: 0;
+  list-style: none;
+
+display: flex;
+flex-direction: row;
+gap: 10px;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+}
+
+.head-list img {
+width: 186px;
+
+}
+
+button {
+    height: 42px;
+    width: 141px;
+    background-color: #0B0E66;
+    color: #26C7EA;
+    border: 2px solid #26C7EA;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.img-nav {
+width: 36px;
+height: 20px;
+}
+
+header {
+    background-image: linear-gradient(0deg, rgba(159, 166, 171, 0.5)), url(bla.png);
+}
+
+.header a {
+    color: #ffffff;
+}
+
+.hero {
+     background: url(men.png);
+    width: 1440px;
+    height: 740px;
+}
+
+.hero p {
+    color: #ffffff;
+    list-style: none;
+    
+}
+
+.clan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.language .text {
+    max-width: 1033px;
+    width: 100%;
+    flex-wrap: wrap;
+ 
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    column-gap: 36px;
+    row-gap: 24px;
+}
+
+.language {
+       background: url(lau.jpg);
+       min-height: 704px;
+
+}
+.language .container {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+
+}
+
+.language h3 {
+    width: 500px;
+    text-align: center;
+}
+
+.language .text>li {
+flex-basis: calc((100%-72px)/3);
+height: 240px;
+
+width: 320px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: rgba(237, 230, 230, 0.7);
+}
+
+footer {
+    background: linear-gradient(0deg, rgba(43, 74, 97, 0.87)), url(bir.png);
+    color: #ffffff;
+    width: 1440px;
+    height: 223px;
+    background-repeat: no-repeat;
+}
+
+footer .container {
+    display: flex;
+}
+
+.footer-logo {
+ width: 183px;
+ height: 70px;
+
+}
